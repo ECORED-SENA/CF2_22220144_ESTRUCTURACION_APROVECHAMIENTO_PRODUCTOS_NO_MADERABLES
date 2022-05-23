@@ -63,9 +63,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
+            numero: '2.3',
             titulo: 'Productos forestales no maderables aprovechados',
-            hash: 't_2_2',
+            hash: 't_2_3',
           },
         ],
       },
@@ -79,7 +79,7 @@ export default {
           {
             icono: 'Disponibilidad de elementos de protección',
             numero: '3.1',
-            titulo: 'Salud y seguridad en el trabajo ',
+            titulo: 'Salud y seguridad en el trabajo',
             hash: 't_3_1',
           },
           {
@@ -112,33 +112,20 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Legislación ambiental para productos no maderables del bosque',
+        titulo: 'Cuantificar e interpretar métricas de inventario florístico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo:
-              'Contextualización: Plan de Ordenamiento Territorial y Planes de Ordenamiento Ambiental',
+            titulo: 'Cuantificar recursos florísticos',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Áreas de manejo ambiental especial',
+            titulo: 'Interpretar métricas de inventario florístico',
             hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Régimen de aprovechamiento de recursos naturales',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Convenios internacionales de sostenibilidad',
-            hash: 't_4_4',
           },
         ],
       },
@@ -252,6 +239,12 @@ export default {
     {
       referencia:
         'OIT. (1997). <i>Nuevas reglas para proteger a los trabajadores y al medio ambiente. OIT.</i> ',
+      link:
+        'https://www.ilo.org/safework/info/standards-and-instruments/codes/WCMS_112615/lang--es/index.htm ',
+    },
+    {
+      referencia:
+        'OIT. (1998). <i>Seguridad y salud en el trabajo forestal. OIT</i>.  ',
       link:
         'https://www.ilo.org/safework/info/standards-and-instruments/codes/WCMS_112615/lang--es/index.htm ',
     },
@@ -389,36 +382,59 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Magdi Khalifha',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '---',
+        nombre: 'Erika Viviana Sandoval Rojas',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '---',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'María Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

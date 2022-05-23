@@ -113,7 +113,7 @@
   &::before
     background-color: #FFEAB7
 
-.dan
+.fullhg
   height: 100% !important
 
 .bg--green  
@@ -179,11 +179,20 @@
   position: absolute
   top: 0
   right: -7%
+  animation: floatLeaf 3s infinite ease-in-out alternate
 
 .hoja_02
   position: absolute
-  top: 10%
+  top: 10px
   right: -12%
+  animation: floatLeaf 3s infinite ease-in-out alternate
+
+@keyframes floatLeaf
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
   
 
 ///// crds

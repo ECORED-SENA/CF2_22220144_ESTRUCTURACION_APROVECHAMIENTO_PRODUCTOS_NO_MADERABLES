@@ -5,8 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Titulo de primer nivel
-
+      h1 Cuantificar e interpretar métricas de inventario florístico  
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -32,7 +31,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0                  
-                  p.mb-0 Para profundizar en el aprendizaje sobre el tema se invito a revisar el recurso “Estudio florístico y estructural de un zural boscoso en el municipio de Arauca”, que se encuentra en la sección de material complementario o a través del siguiente enlace: 
+                  p.mb-0 Para profundizar en el aprendizaje sobre el tema le invito a revisar el recurso “Estudio florístico y estructural de un zural boscoso en el municipio de Arauca”, que se encuentra en la sección de material complementario o a través del siguiente enlace: 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/0120-0739-cofo-22-01-00037.pdf')" target="_blank")
                     span Descargar
@@ -113,8 +112,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        table.mb-5
-          caption Nota. Elaboración propia con base en Ministerio de Desarrollo Agrario y Riego (2015).            
+        table.mb-5                      
           thead
             tr.tr--yellow
               th(colspan='2') Variables                     
@@ -148,7 +146,7 @@
               td Cantidad óptima de producción.
             tr
               td Las plantas y la manera de producirlas.  
-              td Quién la produce, dónde y cuánto se produce, cuándo y cómo, entre otros factores.
+              td ¿Quién la produce?, ¿Dónde y cuánto se produce?, ¿Cuándo y cómo?, entre otros factores.
             tr.tr--gray
               td Formas de consumo.  
               td Seca, molida y emplasto, etc.
@@ -173,7 +171,7 @@
         .cajon.cjn--green.p-4.mb-4
           p.mb-0 Por lo tanto, es necesario en el desarrollo de estos etnobotánicos considerar la metodología para realizar el inventario florístico, teniendo en cuenta las siguientes fases de desarrollo: 
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema4/t4_04.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema4/t4_04.png", alt="alt")
 
     .row.mb-4
       .col-auto
@@ -446,7 +444,7 @@ export default {
       },
       {
         titulo:
-          '<strong>Comestibles:</strong> frutos silvestres, edulcorantes. neutralizantes, hojas comestibles, hortalizas y setas.',
+          '<strong>Comestibles:</strong> frutos silvestres, edulcorantes, neutralizantes, hojas comestibles, hortalizas y setas.',
         texto: '',
         imagen: require('@/assets/curso/temas/tema4/t4_22.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',

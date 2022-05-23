@@ -47,26 +47,31 @@
       .col-lg-10(data-aos="zoom-in")
         .row.justify-content-center  
           .col-lg-4.gx-0
-            .crd.crd--yellow.crd--topradLeft.p-4
-              h5.mb-0.text-center Exudados
-            .crd.crd--gray.crd--bottomRad01.p-4
-              p Resinas.
-              p Aceites.
-              p.mb-0 Oleorresinas.
+            .crd.crd--gray.crd--topradLeft.crd--bottomRad01.fullhg
+              .crd.crd--yellow.crd--topradLeft.p-4
+                h5.mb-0.text-center Exudados   
+              .p-4           
+                p Resinas.
+                p Aceites.
+                p.mb-0 Oleorresinas.
           .col-lg-4.gx-0
-            .crd.crd--green.p-4
-              h5.mb-0.text-center Exudados
-            .crd.crd--gray.p-4
-              p Resinas.
-              p Aceites.
-              p.mb-0 Oleorresinas.
+            .crd.crd--gray.fullhg
+              .crd.crd--green.p-4
+                h5.mb-0.text-center Estructuras vegetativas
+              .p-4
+                p Tallos.
+                p Hojas.
+                p Raíces.
+                p.mb-0 Yemas apicales.
           .col-lg-4.gx-0
-            .crd.crd--pink.crd--topradRigth.p-4
-              h5.mb-0.text-center Exudados
-            .crd.crd--gray.crd--bottomRad02.p-4
-              p Resinas.
-              p Aceites.
-              p.mb-0 Oleorresinas.
+            .crd.crd--gray.crd--bottomRad02.crd--topradRigth.fullhg
+              .crd.crd--pink.crd--topradRigth.p-4
+                h5.mb-0.text-center Partes reproductivas              
+              .p-4
+                p Nueces.
+                p Frutos.
+                p Aceites de semillas.
+                p.mb-0 Semillas.
 
     p.text-center.mb-5 A continuación, se muestra su clasificación según el interés científico:
     
@@ -126,7 +131,7 @@
               th Familia                
               th Nombre cient&iacute;fico                
               th Bioforma                
-              th Nombre Com&uacute;n                
+              th Nombre común                
               th Imagen
           tbody
             tr.text-center
@@ -144,7 +149,7 @@
               td &Aacute;rbol
               td Flor amarillo
               td 
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
                   span ver imagen
                     .indicador--click(v-if="mostrarIndicador")
             tr.text-center
@@ -153,9 +158,22 @@
               td &Aacute;rbol
               td Laurel negro
               td 
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
                   span ver imagen
                     .indicador--click(v-if="mostrarIndicador")
+
+    ModalA(:abrir-modal.sync="modal1")      
+      figure
+        img(src='@/assets/curso/temas/tema2/modal_01.jpg', alt='')
+        
+    ModalA(:abrir-modal.sync="modal2")      
+      figure
+        img(src='@/assets/curso/temas/tema2/modal_02.jpg', alt='')
+     
+    ModalA(:abrir-modal.sync="modal3")      
+      figure
+        img(src='@/assets/curso/temas/tema2/modal_03.jpg', alt='')
+        
 
     p.mb-5 Colombia es un país muy biodiverso por lo que podrá encontrar una gran cantidad de productos no maderables del bosque, datos que se han venido pasando de generación a generación de forma oral, dichos productos hoy por hoy están siendo investigados para el bienestar del ser humano. 
 
@@ -250,13 +268,13 @@
                     th Clase de recurso
                     th Parte vegetal              
                 tbody.text-center.tr--white
-                  tr
-                    td(rowspan='4') Propágulos.<br>Reproductivos.
-                  tr
+                  tr.tr--gray
+                    td(rowspan='4') Propágulos.<br><br>Reproductivos.
+                  tr.tr--gray
                     td Fruto.
-                  tr
+                  tr.tr--gray
                     td Nuez/semilla.
-                  tr
+                  tr.tr--gray
                     td Semilla oleaginosa.
 
                   tr
@@ -266,27 +284,27 @@
                   tr
                     td Savia. 
 
-                  tr
+                  tr.tr--gray
                     td(rowspan='11') Estructuras vegetales.
-                  tr
+                  tr.tr--gray
                     td Tronco.
-                  tr
+                  tr.tr--gray
                     td Partes verdes.            
-                  tr
+                  tr.tr--gray
                     td Flores.            
-                  tr
+                  tr.tr--gray
                     td Hojas.            
-                  tr
+                  tr.tr--gray
                     td Raíz.            
-                  tr
+                  tr.tr--gray
                     td Corteza.            
-                  tr
+                  tr.tr--gray
                     td Tubérculo.            
-                  tr
+                  tr.tr--gray
                     td Yemas apicales.            
-                  tr
+                  tr.tr--gray
                     td Brotes.            
-                  tr
+                  tr.tr--gray
                     td Tallos.           
             .col-lg-2.d-none.d-lg-flex.mb-4
               figure(data-aos="flip-left")
@@ -338,7 +356,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 3.
+          h5 Tabla 4.
           span PFNM vegetales y procesos de aplicación
 
         table.mb-5
@@ -458,11 +476,11 @@
       .half_bg.green
         figure
           img(src="@/assets/curso/temas/tema2/t2_22.png", alt="alt").img1030.m-auto            
-          h5.p-4.text-center Chontadura
+          h5.p-4.text-center Chontaduro
       .half_bg.green
         figure
           img(src="@/assets/curso/temas/tema2/t2_23.png", alt="alt").img1030.m-auto            
-          h5.p-4.text-center Noní
+          h5.p-4.text-center Noni
       .half_bg.green
         figure
           img(src="@/assets/curso/temas/tema2/t2_24.png", alt="alt").img1030.m-auto            
@@ -492,7 +510,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0                  
-                  p.mb-0 Para profundizar en el tema “productos no maderables del bosque” se invito a revisar la sección de materiales complementarios o en el siguiente enlace.
+                  p.mb-0 Para profundizar en el tema “productos no maderables del bosque” le invito a revisar la sección de materiales complementarios o en el siguiente enlace.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.fao.org/3/y1997s/y1997s0g.htm" target="_blank")
                     span ver sitio
@@ -529,14 +547,14 @@
                   img(src="@/assets/curso/temas/tema2/t2_29.png", alt="alt").m-auto
               .col-lg-8
                 p Este producto es un fruto propio de la región pacífica colombiana, viene de la palma del murrapo, es un recurso económico promisorio para el Pacífico y Medio Atrato. Es una de las frutas más ricas en antioxidantes y tiene alto contenido de calcio. 
-                p.mb-0 De amplio uso en la cultura alimenticia de la región. Es un gran aliado para perder peso y tiene aplicaciones medicinales en el tratamiento de Leucemia, Alzheimer, cáncer, Parkinson y los cólicos menstruales. Además, es muy solicitado para productos de belleza, con aplicación cosmetológica y efectos estéticos.
+                p.mb-0 De amplio uso en la cultura alimenticia de la región. Es un gran aliado para perder peso y tiene aplicaciones medicinales en el tratamiento de Leucemia, Alzheimer, Cáncer, Parkinson y los Cólicos Menstruales. Además, es muy solicitado para productos de belleza, con aplicación cosmetológica y efectos estéticos.
 
             .row(titulo="Arazá")           
               .col-lg-4.mb-4.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema2/t2_30.png", alt="alt").m-auto
               .col-lg-8
-                p Es originario de la región amazónica occidental tiene muchas propiedades para mejorar el funcionamiento del organismo humano. Posee un alto contenido en pectina (puede ser empleado en las comidas), es apropiada para producir jugos, helados y mermeladas. Aporta vitamina C, es antidiarreico, actúa como vaso protector, analgésico, antiespasmódico, bactericida, antineurálgico, depurativo, digestivo, afrodisiaco, hipotenso, sedante, ansiolítico, antidepresivo, antihistérico, calmante y tranquilizante.
+                p Es originario de la región Amazónica occidental tiene muchas propiedades para mejorar el funcionamiento del organismo humano. Posee un alto contenido en pectina (puede ser empleado en las comidas), es apropiada para producir jugos, helados y mermeladas. Aporta vitamina C, es antidiarréico, actúa como vaso protector, analgésico, antiespasmódico, bactericida, antineurálgico, depurativo, digestivo, afrodisiaco, hipotensor, sedante, ansiolítico, antidepresivo, antihistérico, calmante y tranquilizante.
                 .crd.crd--yellow.p-3
                   p.mb-2 Para profundizar en el conocimiento sobre productos no maderables, le invito a revisar el documento Productos no maderables, alternativa de conservación de nuestros bosques, que se encuentra en la sección de material complementario o a través del siguiente enlace: 
                   .row
@@ -550,12 +568,12 @@
                 figure
                   img(src="@/assets/curso/temas/tema2/t2_31.png", alt="alt").m-auto
               .col-lg-8
-                p Es importante mencionar otros frutos se inventarían como parte de los PFNM como: el chontaduro, copoazú, cocona, almirajo y níspero, estos son algunos de los frutos que en determinadas regiones se consumen y su comercio es bastante aceptable. Por ejemplo el chontaduro en el departamento del Valle del Cauca donde se conoce como el huevo vegetal por su alto valor nutricional. 
+                p Es importante mencionar otros frutos se inventarian como parte de los PFNM como: el chontaduro, copoazú, cocona, almirajo y níspero, estos son algunos de los frutos que en determinadas regiones se consumen y su comercio es bastante aceptable. Por ejemplo el chontaduro en el departamento del Valle del Cauca donde se conoce como el huevo vegetal por su alto valor nutricional. 
                 p.mb-0 Otros frutos como el noni, aceptado por sus condiciones medicinales que ha sido incorporado a las fórmulas de los médicos naturalistas y galenos que difieren de los medicamentos a base de químicos y prefieren los de origen vegetal.
 
     .row.justify-content-center
       .col-lg-10                
-        p.mb-5 Existen como PFNM otras frutas como el camu camu, los conocedores de esta fruta dicen que tiene más ácido nítrico que los mismos limones. Sabiendo todo esto, lo invito a ver el siguiente recurso de aprendizaje que le explica más este tema con una caracterización:
+        p.mb-5 Existen como PFNM otras frutas como el camu camu, los conocedores de esta fruta dicen que tiene más ácido cítrico que los mismos limones. Sabiendo todo esto, lo invito a ver el siguiente recurso de aprendizaje que le explica más este tema con una caracterización:
 
         .titulo-sexto.color-acento-contenido.mb-5          
           span Productos forestales no maderables animales aprovechados por el ser humano.
@@ -611,12 +629,11 @@
         p.box--green.p-4 Entre los productos no maderables que se obtiene del bosque en forma directa o indirecta se encuentran los siguientes:
 
       .col-lg-10
-        .titulo-sexto.color-acento-contenido
-          h5 Tabla 4.
+        .titulo-sexto.color-acento-contenido          
           span Productos no maderables que se obtienen de los bosques
 
         table.mb-5
-          caption Nota. Elaboración propia con base en Ministerio de Desarrollo Agrario y Riego (2015). 
+          caption Nota. Elaboración propia con base en el Ministerio de Desarrollo Agrario y Riego (2015). 
           thead
             tr.tr--yellow
               th Achiote
@@ -635,6 +652,14 @@
               td Barbasco          
               td Palma aceitera
               td Té
+            tr.tr--gray
+              td Camu camu         
+              td Pijuayo
+              td Uña de gato
+            tr.tr--gray
+              td Caucho        
+              td 
+              td 
 
       .col-lg-8        
         .crd.crd--yellow.p-4
@@ -644,7 +669,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0                  
-                  p.mb-0 Para profundizar en el tema se invito a revisar el siguiente documento Productos forestales no maderables asociados a bosques de roble el cual se encuentra en la sección de material complementario o a través del siguiente enlace.
+                  p.mb-0 Para profundizar en el tema le invito a revisar el siguiente documento Productos forestales no maderables asociados a bosques de roble el cual se encuentra en la sección de material complementario o a través del siguiente enlace.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/v15n2a03.pdf')" target="_blank")
                     span Descargar
@@ -665,19 +690,19 @@
 
     .row.justify-content-center.mb-5
       .col-10.col-lg-3.mb-4.mb-lg-0
-        .crd.crd--paleGray.crd--brad(data-aos="flip-left").p-4
+        .crd.crd--paleGray.crd--brad(data-aos="flip-left").fullhg.p-4
           figure.mb-2
-            img(src="@/assets/curso/temas/tema2/t2_42.svg", alt="alt").img125.m-auto
+            img(src="@/assets/curso/temas/tema2/t2_44.svg", alt="alt").img125.m-auto
           h5.text-center El capital natural
       .col-10.col-lg-3.mb-4.mb-lg-0
-        .crd.crd--paleYellow.crd--brad(data-aos="flip-left").p-4
+        .crd.crd--paleYellow.crd--brad(data-aos="flip-left").fullhg.p-4
           figure.mb-2
             img(src="@/assets/curso/temas/tema2/t2_43.svg", alt="alt").img125.m-auto
           h5.text-center La economía forestal
       .col-10.col-lg-3
-        .crd.crd--paleGreen.crd--brad(data-aos="flip-left").p-4
+        .crd.crd--paleGreen.crd--brad(data-aos="flip-left").fullhg.p-4
           figure.mb-2
-            img(src="@/assets/curso/temas/tema2/t2_44.svg", alt="alt").img125.m-auto
+            img(src="@/assets/curso/temas/tema2/t2_42.svg", alt="alt").img125.m-auto
           h5.text-center El desarrollo comunitario
 
     p En la renovación productiva de las actividades agrícolas de las áreas y zonas con uso potencial productivo es importante fomentar el manejo adecuado agrícola para la dinamización de la economía forestal del país y evitar la extinción de especies con el fin de consolidar las cadenas de valor forestal y agroforestal.
@@ -688,19 +713,11 @@
         p.mb-2 #[strong Otro aspecto a considerar está relacionado con el fomento de la aplicación de procesos de conservación y manejo sostenible de los bosques; por otro lado, es clave revisar con los censos forestales para proyectar la ordenación forestal de Colombia y aportar a los procesos de conservación y manejo sostenible del bosque, en el contexto de la huella del carbón.]
         span - Conpes 4021, 2020.
 
-    p.text-center.mb-5 Como parte de su aprendizaje le invito a ver una videoclase sobre los productos forestales no maderables del bosques.
+    p.text-center.mb-5 Como parte de su aprendizaje lo invito a ver una videoclase sobre los productos forestales no maderables del bosque.
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
-            
-    
-              
-
-
-
-
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MW7jlvhH_no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
     
 
 </template>
@@ -709,6 +726,9 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    modal1: false,
+    modal2: false,
+    modal3: false,
     datosSlyder: [
       {
         titulo: '',
@@ -741,7 +761,7 @@ export default {
       {
         titulo: '',
         texto:
-          '<strong>Penicilina:</strong> es una sustancia producida por el hongo Penicillium notatum, por su acción antibactericida, se utiliza en la preparación de antibióticos para humanos.',
+          '<strong>Penicilina:</strong> es una sustancia producida por el hongo <i>Penicillium notatum</i>, por su acción antibactericida, se utiliza en la preparación de antibióticos para humanos.',
         imagen: require('@/assets/curso/temas/tema2/t2_38.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

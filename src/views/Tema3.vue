@@ -82,7 +82,8 @@
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Enfermedad profesional 
 
-   
+    p La enfermedad profesional o enfermedad laboral es el resultado de la exposición del trabajador a los diferentes riesgos que se presentan en la ejecución de sus labores en el área de desempeño. Estas pueden generar una incapacidad para efectuar sus actividades profesionales y en situaciones críticas puede causar desenlace mortal en el trabajador.
+
     .crd.crd--yellow02
       .row.justify-content-center.align-items-center.mb-5      
         .col-auto.d-none.d-lg-flex
@@ -96,7 +97,7 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Contexto legal y normativo 
 
-    p La mayoría de los miembros de la OIT reconocen que la salud y seguridad en el trabajo en el sector forestal no constituye únicamente un imperativo ético, sino que resulta rentable y coherente. Se constituye, además, en un requisito previo para la buena gestión ambiental y la utilización de los recursos naturales. La organización Internacional del Trabajo - OIT considera que la seguridad y salud en el trabajo, no impera solamente, lo ético, sino que además influye en el comportamiento económico. 
+    p La mayoría de los miembros de la OIT reconocen que la salud y seguridad en el trabajo en el sector forestal no constituye únicamente un imperativo ético, sino que, resulta rentable y coherente. Se constituye, además, en un requisito previo para la buena gestión ambiental y la utilización de los recursos naturales. La Organización Internacional del Trabajo - OIT considera que la seguridad y salud en el trabajo, no impera solamente, lo ético, sino que, además influye en el comportamiento económico. 
 
     .crd.crd--greenGrad
       .row.justify-content-center.align-items-center.mb-5        
@@ -174,8 +175,8 @@
 
     separador
 
-    #t_3_4.titulo-segundo.color-acento-contenido.pt-5
-        h2 3.4 Salud y seguridad en el trabajo en el sector forestal
+    #t_3_5.titulo-segundo.color-acento-contenido.pt-5
+      h2 3.5 Salud y seguridad en el trabajo en el sector forestal
 
     p.mb-4 Entre los factores que pueden afectar la salud del trabajador se encuentran la exposición a condiciones extremas de calor o frío, influyendo negativamente en la capacidad de trabajo causada por el estrés térmico y deshidratación. 
 

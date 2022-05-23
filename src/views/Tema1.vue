@@ -19,17 +19,17 @@
               p.mb-0.p-4.pt-lg-3.pt-xl-4.px-lg-3 Para ubicar geográficamente la zona forestal de los productos no maderables del bosque, es importante el dominio de las herramientas como la cartografía y la georreferenciación. El conocimiento y aplicación de estas permite la ubicación de las zonas forestales para el aprovechamiento de esos productos, por lo que la cartografía representada en los mapas y la georreferenciación que permite contar con los sistemas de información geográfica, ayudan a los habitantes rurales a ubicar y disponer de dichas zonas. 
 
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Cartografía
+      #t_1_1.titulo-segundo.color-acento-contenido
+        h2 1.1 Cartografía
 
-    .row.justify-content.mb-5
-      .col-lg-8.mb-4.mb-lg-0
-        p En el contexto de la relación ser humano-naturaleza, el relieve del terreno es determinante para la recolección de la información requerida para el logro de propósitos científicos, técnicos y económicos, es a través de los diferentes trabajos o investigaciones que se hace el levantamiento de censos de la flora silvestre, mediante estos instrumentos. 
-        p Así mismo, es importante identificar la dinámica tecnológica aplicada en el levantamiento de información con la introducción de fotografías aéreas y la fotogrametría que respondan a las necesidades de la ciencia, la tecnología y la sociedad, por lo que también se deben revisar los avances de las técnicas que se utilizan en la cartografía, como es el caso de las reproducciones cartográficas.
+      .row.justify-content.mb-5
+        .col-lg-8.mb-4.mb-lg-0
+          p En el contexto de la relación ser humano-naturaleza, el relieve del terreno es determinante para la recolección de la información requerida para el logro de propósitos científicos, técnicos y económicos, es a través de los diferentes trabajos o investigaciones que se hace el levantamiento de censos de la flora silvestre, mediante estos instrumentos. 
+          p Así mismo, es importante identificar la dinámica tecnológica aplicada en el levantamiento de información con la introducción de fotografías aéreas y la fotogrametría que respondan a las necesidades de la ciencia, la tecnología y la sociedad, por lo que también se deben revisar los avances de las técnicas que se utilizan en la cartografía, como es el caso de las reproducciones cartográficas.
 
-      .col-lg-4
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/t1_01.svg", alt="alt").img400.m-auto
+        .col-lg-4
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/temas/tema1/t1_01.svg", alt="alt").img400.m-auto
 
     .row.mb-4
       .col-auto
@@ -41,7 +41,9 @@
             .col.me-5
               h3.customH3 Conceptualización
 
-    p.mb-5 La cartografía se considera una ciencia aplicada, responsable de reunir, realizar y analizar medidas y datos del relieve de las regiones de la tierra, relacionados con las curvas de nivel, cuerpos de agua; además, de elementos artificiales y humanos, tales como: las redes de transporte y los centros poblados entre otros, con su respectiva representación gráfica en diferentes escalas y dimensiones lineales.
+    p La cartografía se considera una ciencia aplicada, responsable de reunir, realizar y analizar medidas y datos del relieve de las regiones de la tierra, relacionados con las curvas de nivel, cuerpos de agua; además, de elementos artificiales y humanos, tales como: las redes de transporte y los centros poblados entre otros, con su respectiva representación gráfica en diferentes escalas y dimensiones lineales.
+
+    p.mb-5 Las diferentes escalas son:
     
     .row.justify-content-center.mb-5
       .col-lg-10.position-relative        
@@ -94,7 +96,7 @@
                   p.mb-0 Para profundizar en el tema se invita a revisar el siguiente enlace del IGAC.
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.igac.gov.co/es/contenido/areas-estrategicas/formatos-y-escalas-de-mapas" target="_blank")
-                    span ver sitio
+                    span Enlace web
                     i.fas.fa-link                    
 
     .row.mb-4
@@ -142,12 +144,12 @@
         .crd.crd--paleYellow.crd--brad(data-aos="flip-left").p-4
           figure.mb-2
             img(src="@/assets/curso/temas/tema1/t1_07.svg", alt="alt").img125.m-auto
-          h5.text-center La condición geografía
+          h5.text-center Las condiciones geológicas
       .col-10.col-lg-3
         .crd.crd--paleGreen.crd--brad(data-aos="flip-left").p-4
           figure.mb-2
             img(src="@/assets/curso/temas/tema1/t1_08.svg", alt="alt").img125.m-auto
-          h5.text-center La condición geografía
+          h5.text-center La situación geopolítica
 
     .row.justify-content-center.mb-4
       .col-auto
@@ -180,7 +182,7 @@
               figure
                 img(src="@/assets/curso/recursos/h3_icon.svg", alt="alt").img85
             .col.me-5
-              h3.customH3 Clasificación de la cartografía.
+              h3.customH3 Clasificación de la cartografía
 
     p.mb-5 En cuanto a la cartografía básica esta se interpreta como el proceso de observación directa y medición de la superficie terrestre de los elementos que sirven de base y referencia para su uso generalizado en la representación gráfica de la tierra. Por lo anterior, le invito a revisar el siguiente recurso de aprendizaje, en el cual podrá conocer su clasificación:
 
@@ -344,7 +346,7 @@
                   i.fa-li.fas.fa-circle.cstm--bullet
                   | La diferencia de altura que existen entre los accidentes de la tierra,  tales como:
 
-                p.ps-3.mb-2 #[span.blt--red -] valles.
+                p.ps-3.mb-2 #[span.blt--red -] Valles.
                 p.ps-3 #[span.blt--red -] Colinas (llamadas también relieves verticales).
 
     .row.mb-4
@@ -446,6 +448,7 @@
         figure(data-aos="zoom-in").pt-4
           img(src="@/assets/curso/temas/tema1/t1_29.png", alt="alt").img500.m-auto
       .col-lg
+        h5 Litorales
         ul.fa-ul.position-relative.mb-0
           li.mb-1
             i.fa-li.fas.fa-circle.cstm--bullet
