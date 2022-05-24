@@ -140,7 +140,7 @@
               td ¿Qué se usa?, uso popular, uso restringido.
             tr
               td Técnicas de siembra y crecimiento.   
-              td Cuáles son espontáneas, sembradas, cultivadas.
+              td ¿Cuáles son espontáneas, sembradas, cultivadas?.
             tr.tr--gray
               td Volumen de producción.   
               td Cantidad óptima de producción.
