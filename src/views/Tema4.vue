@@ -131,7 +131,7 @@
               td Viene de un ejemplar joven, maduro, de rastrojo, de patio, bejucos, arbustos, mata, matorro (clasificaciones propias).
             tr.tr--gray
               td Énfasis en las medicinales.      
-              td El análisis de las plantas utilizadas, reconstrucción de procesos y usos que se las dan. ¿En dónde se siembran? (medio monte, abajo).
+              td El análisis de las plantas utilizadas, reconstrucción de procesos y usos que se le dan. ¿En dónde se siembran? (medio monte, abajo).
             tr
               td Ciclo de vida de la planta, abundancia, crecimiento (sombra, luz), ¿cuál es la parte que usa?      
               td Ciclo de vida de la planta, abundancia, crecimiento (sombra, luz), ¿Cuál es la parte que usa?

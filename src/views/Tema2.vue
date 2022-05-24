@@ -761,7 +761,7 @@ export default {
       {
         titulo: '',
         texto:
-          '<strong>Penicilina:</strong> es una sustancia producida por el hongo <i>Penicillium notatum</i>, por su acción antibactericida, se utiliza en la preparación de antibióticos para humanos.',
+          '<strong>Penicilina:</strong> es una sustancia producida por el hongo <i>Penicillium Notatum</i>, por su acción antibactericida, se utiliza en la preparación de antibióticos para humanos.',
         imagen: require('@/assets/curso/temas/tema2/t2_38.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
