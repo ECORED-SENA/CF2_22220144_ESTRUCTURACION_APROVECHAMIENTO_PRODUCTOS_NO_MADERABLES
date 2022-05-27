@@ -20,7 +20,7 @@
             .col-lg.bg--yellow
               p.mb-0.p-4.pt-lg-3.pt-xl-4.px-lg-3 Ubicados en la zona seleccionada se puede proceder a realizar la clasificación de los elementos de la biodiversidad, puede ser una clasificación por reinos, reino vegetal (todas las plantas, árboles, y especies vegetales) y el reino animal, (mamíferos, roedores, reptiles etc.) y los hongos (setas y champiñones).
 
-      p.mb-4 Otra clasificación que se puede efectuar es por las partes que producen los PFNM, en las plantas la raíz el tallo, las hojas etc., y en los animales, todo el animal o algunas partes de él; una última clasificación es por el uso final de los PFNM, alimenticios, medicinales, industriales, etc. Todos estos inventarios dejarán cuantificar los diferentes recursos aprovechables del bosque, interpretando las métricas requeridas en cada inventario.
+      p.mb-4 Otra clasificación que se puede efectuar es por las partes que producen los PFNM, en las plantas, la raíz, el tallo, las hojas, etc., y en los animales, todo el animal o algunas partes de él; una última clasificación es por el uso final de los PFNM, alimenticios, medicinales, industriales, etc. Todos estos inventarios dejarán cuantificar los diferentes recursos aprovechables del bosque, interpretando las métricas requeridas en cada inventario.
 
       .row.justify-content-center.mb-5
         .col-lg-10

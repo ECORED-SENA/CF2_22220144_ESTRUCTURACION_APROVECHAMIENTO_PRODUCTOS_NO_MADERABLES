@@ -183,7 +183,7 @@ export default {
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/4021.pdf',
     },
     {
-      referencia: 'FAO (s.f.). <i>Planos y mapas topográficos. FAO.</i>',
+      referencia: 'FAO (s.f.). <i>Planos y mapas topográficos. FAO.</i> ',
       link:
         'https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6707s/x6707s09.htm#:~:text=Los%20planos%20y%20mapas%20cartogr%C3%A1ficos,colinas%20(llamadas%20tambi%C3%A9n%20relieves%20verticales)',
     },
@@ -198,7 +198,7 @@ export default {
     },
     {
       referencia:
-        'FAO. (2015). <i>El arazá, un frutal alternativo para la amazonia ecuatoriana. FAO.</i> ',
+        'FAO. (2015). <i>El arazá, un frutal alternativo para la Amazonia Ecuatoriana. FAO.</i> ',
       link: 'https://www.fao.org/in-action/agronoticias/detail/es/c/508811/',
     },
     {
@@ -240,7 +240,7 @@ export default {
       referencia:
         'OIT. (1997). <i>Nuevas reglas para proteger a los trabajadores y al medio ambiente. OIT.</i> ',
       link:
-        'https://www.ilo.org/safework/info/standards-and-instruments/codes/WCMS_112615/lang--es/index.htm ',
+        'http://ciaris.ilo.org/global/about-the-ilo/newsroom/news/WCMS_008458/lang--es/index.htm ',
     },
     {
       referencia:
